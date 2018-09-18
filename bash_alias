@@ -16,7 +16,8 @@ alias trash='gvfs-trash'
 
 # PYTHON
 alias py2='python2.7'
-alias py3='python3.5'
+alias py35='python3.5'
+alias py36='python3.6'
 
 # APPS
 alias rt='ristretto'
