@@ -2,6 +2,7 @@ alias l='ls -l'
 alias ll='ls -l'
 alias la='ls -la'
 alias lt='ls -lt'
+alias lh='ls -lh'
 
 alias ..='cd ..'
 alias ..2='cd ../..'
