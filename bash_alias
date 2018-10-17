@@ -26,6 +26,10 @@ alias rt='ristretto'
 # NET
 alias i='ifconfig'
 
+# APT
+alias ag='apt-get'
+alias ac='apt-cache'
+
 # FUNCTIONS
 
 function mkcd {
