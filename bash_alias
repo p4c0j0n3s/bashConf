@@ -23,6 +23,9 @@ alias py36='python3.6'
 # APPS
 alias rt='ristretto'
 
+# NET
+alias i='ifconfig'
+
 # FUNCTIONS
 
 function mkcd {
