@@ -25,6 +25,7 @@ alias rt='ristretto'
 
 # NET
 alias i='ifconfig'
+alias p8='ping 8.8.8.8'
 
 # APT
 alias ag='apt-get'
