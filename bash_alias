@@ -3,6 +3,8 @@ alias ll='ls -l'
 alias la='ls -la'
 alias lt='ls -lt'
 alias lh='ls -lh'
+alias lS='ls -lS'
+alias lSr='ls -lSr'
 
 alias ..='cd ..'
 alias ..2='cd ../..'
