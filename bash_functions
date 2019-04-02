@@ -10,6 +10,8 @@ function mkcd {
   fi  
 }
 
+# SERVICE
+
 function s_start {
     service $1 start
 }
@@ -26,4 +28,10 @@ function s_status {
             service --status-all | grep --color=auto $1;
         fi;
     fi
+}
+
+# GIT
+
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
