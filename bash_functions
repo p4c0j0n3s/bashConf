@@ -10,6 +10,14 @@ function mkcd {
   fi  
 }
 
+lsloc() {
+  locate "$@" | 
+    while read -r name; do
+      ls -ld "$name"
+    done
+}
+
+
 # SERVICE
 
 function s_start {
