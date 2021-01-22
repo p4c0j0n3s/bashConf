@@ -15,7 +15,6 @@ alias ..5='cd ../../../../..'
 alias r='tput reset'
 alias t='tmux'
 alias th='thunar'
-alias tr='tree'
 alias trash='gvfs-trash'
 
 # PYTHON
